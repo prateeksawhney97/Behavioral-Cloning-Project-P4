@@ -116,3 +116,5 @@ I used this training data for training the model. The validation set helped dete
 
 
 ### Simulation
+
+#### 1. Car able to navigate correctly on test data
