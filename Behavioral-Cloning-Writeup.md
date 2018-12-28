@@ -59,7 +59,8 @@ Training data was chosen to keep the vehicle driving on the road. I used a combi
 
 For details about how I created the training data, see the next section. 
 
-### Model Architecture and Training Strategy
+### Architecture and Training Documentation
+
 
 #### 1. Solution Design Approach
 
