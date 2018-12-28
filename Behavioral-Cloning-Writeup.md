@@ -1,9 +1,6 @@
 # **Behavioral Cloning** 
 
-## Writeup Template
-
-
-**Behavioral Cloning Project**
+## Writeup
 
 ### The goals / steps of this project are the following:
 
