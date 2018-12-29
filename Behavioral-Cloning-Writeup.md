@@ -26,7 +26,7 @@ My project includes the following files:
 
 #### 2. Submission includes functional code
 
-First of all, the model is trained to generate the model.h5 file with the help of following command:
+First of all, the model is trained to generate the model.h5 file with the help of following command. model.py file contains the code to train the model.
 ```sh
 python model.py
 ```
@@ -34,7 +34,7 @@ Using the Udacity provided simulator and my drive.py file, the car can be driven
 ```sh
 python drive.py model.h5
 ```
-After the car successfully steers through the track, the video of the driving behavior can be formed by producing various frames and saving that frames in the run_video folder, by executing the following command:
+After the car successfully steers through the track, the video of the driving behavior can be formed by producing various frames and saving that frames in the run_video folder, by executing the following command. The fourth argument, run_video, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
 ```sh
 python drive.py model.h5 run_video
 ```
@@ -46,9 +46,6 @@ Optionally, we can specify the FPS (frames per second) of the video. The default
 ```sh
 python video.py run_video --fps 48
 ```
-
-
-
 
 #### 3. Submission code is usable and readable
 
