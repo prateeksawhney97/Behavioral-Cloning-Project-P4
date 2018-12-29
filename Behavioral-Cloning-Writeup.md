@@ -20,15 +20,25 @@
 
 My project includes the following files:
 * model.py containing the script to create and train the model. It contains the main code necessary for the project to train.
-* drive.py for driving the car in autonomous mode. It is used along with model.h5 to drive the car in the simulator.
+* drive.py for driving the car in autonomous mode. It is used along with model.h5 to drive the car in the simulator autonomously.
 * model.h5 containing a trained convolution neural network. 
 * writeup_report.md or writeup_report.pdf summarizing the results as Behavioral-Cloning-Writeup.md. 
 
 #### 2. Submission includes functional code
-Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
+
+First of all, the model is trained to generate the model.h5 file with the help of following command:
+```sh
+python model.py
+```
+Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing: 
 ```sh
 python drive.py model.h5
 ```
+After the car successfully steers through the track, the video of the driving behavior can be formed by producing various frames and saving that frames in the run_video folder, by executing the following command:
+```sh
+python drive.py model.h5 run_video
+```
+After all the frames of the car driving in the simulator are saved in the run_video folder,
 
 #### 3. Submission code is usable and readable
 
