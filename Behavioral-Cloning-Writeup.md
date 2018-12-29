@@ -63,18 +63,18 @@ The model architecture is depicted below with the help of table:
 | Layer         		|     Output Shape	        					| Param |
 |:---------------------:|:---------------------------------------------:|:---------------------------------------------:| 
 | Cropping2D Layer         		| (None, 65, 320, 3)   							|      |
-| Lambda Layer         		| (None, )   							|    |
-| Convolution Layer 1   	| (None, ) 	|   |
-| Convolution Layer 2	    | (None, )    									|   |
-| Convolution Layer 3		| (None, ) |       									|
-| Convolution Layer 4				| (None, )      |  									|
-|	Convolution Layer 5					|		(None, )			|							|
-| Dropout Layer 1              |     (None, )   |       |
-| Flatten Layer 1              |        (None, ) |      |
-|	Dense Layer 1				|		(None, )		|			|
-| Dense Layer 2		| (None, )     |   									|
-|	Dense Layer 3				|		(None, )						|     |
-| Dense Layer 4		| (None, )   |     									|
+| Lambda Layer         		| (None, 65, 320, 3 )   							|    |
+| Convolution Layer 1   	| (None, 31, 158, 24) 	|   |
+| Convolution Layer 2	    | (None, 14, 77, 36)    									|   |
+| Convolution Layer 3		| (None, 5, 37, 48) |       									|
+| Convolution Layer 4				| (None, 3, 35, 64)      |  									|
+|	Convolution Layer 5					|		(None, 1, 33, 64)			|							|
+| Dropout Layer 1              |     (None, 1, 33, 64)   |       |
+| Flatten Layer 1              |        (None, 2112) |      |
+|	Dense Layer 1				|		(None, 100)		|			|
+| Dense Layer 2		| (None, 50)     |   									|
+|	Dense Layer 3				|		(None, 10)						|     |
+| Dense Layer 4		| (None, 1)   |     									|
  
 
 
