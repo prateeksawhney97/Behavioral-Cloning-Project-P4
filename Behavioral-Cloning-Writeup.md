@@ -60,21 +60,21 @@ My model consists of a convolution neural network which is implemented with the 
 The model architecture is depicted below with the help of table:
 
 
-| Layer         		|     Output Shape	        					| Param 
-|:---------------------:|:---------------------------------------------:| 
-| Cropping2D Layer         		| 32x32x3 RGB image   							| 
-| Lambda Layer         		| 32x32x3 RGB image   							| 
-| Convolution Layer 1   	| Outputs 28x28x6 	|
-| Convolution Layer 2	    | Outputs 10x10x16    									|
-| Convolution Layer 3		| Activation applied to output of layer 2        									|
-| Convolution Layer 4				| Input = 10x10x16, Output = 5x5x16        									|
-|	Convolution Layer 5					|		Input = 5x5x16, Output =400										|
-| Dropout Layer 1              |               |
-| Flatten Layer 1              |               |
-|	Dense Layer 1				|		Input = 400, Output = 120						|
-| Dense Layer 2		| Activation applied to output of Fully Connected layer 1        									|
-|	Dense Layer 3				|		Input = 120, Output = 84						|
-| Dense Layer 4		| Activation applied to output of Fully Connected layer 2        									|
+| Layer         		|     Output Shape	        					| Param |
+|:---------------------:|:---------------------------------------------:|:---------------------------------------------:| 
+| Cropping2D Layer         		| 32x32x3 RGB image   							|      |
+| Lambda Layer         		| 32x32x3 RGB image   							|    |
+| Convolution Layer 1   	| Outputs 28x28x6 	|   |
+| Convolution Layer 2	    | Outputs 10x10x16    									|   |
+| Convolution Layer 3		| Activation applied to output of layer 2 |       									|
+| Convolution Layer 4				| Input = 10x10x16, Output = 5x5x16      |  									|
+|	Convolution Layer 5					|		Input = 5x5x16, Output =400			|							|
+| Dropout Layer 1              |        |       |
+| Flatten Layer 1              |         |      |
+|	Dense Layer 1				|		Input = 400, Output = 120			|			|
+| Dense Layer 2		| Activation applied to output of Fully Connected layer 1     |   									|
+|	Dense Layer 3				|		Input = 120, Output = 84						|     |
+| Dense Layer 4		| Activation applied to output of Fully Connected layer 2   |     									|
  
 
 
