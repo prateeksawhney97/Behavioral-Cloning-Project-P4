@@ -60,7 +60,7 @@ My model consists of a convolution neural network which is implemented with the 
 The model architecture is depicted below with the help of table:
 
 
-| Layer         		|     Output Shape	        					| Param |
+| Layer         		|     Output Shape	        					| Param 
 |:---------------------:|:---------------------------------------------:| 
 | Cropping2D Layer         		| 32x32x3 RGB image   							| 
 | Lambda Layer         		| 32x32x3 RGB image   							| 
