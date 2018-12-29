@@ -23,6 +23,7 @@ My project includes the following files:
 ##### * drive.py for driving the car in autonomous mode. It is used along with model.h5 to drive the car in the simulator autonomously.
 ##### * model.h5 containing a trained convolution neural network. 
 ##### * writeup_report.md or writeup_report.pdf summarizing the results as Behavioral-Cloning-Writeup.md. 
+##### * an output video - 'run_video.mp4' of the car driving successfully in the simulator.
 
 #### 2. Submission includes functional code
 
