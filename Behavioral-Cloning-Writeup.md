@@ -38,10 +38,17 @@ After the car successfully steers through the track, the video of the driving be
 ```sh
 python drive.py model.h5 run_video
 ```
-After all the frames of the car driving in the simulator are saved in the run_video folder, the video can be made by combining all the frames with the use of following command:
+After all the frames of the car driving in the simulator are saved in the run_video folder, the video can be made by combining all the frames with the use of following command. It creates a video based on images found in the run_video directory. The name of the video will be the name of the directory followed by '.mp4'.
 ```sh
 python video.py run_video
 ```
+Optionally, we can specify the FPS (frames per second) of the video. The default is 60 fps.
+```sh
+python video.py run_video --fps 48
+```
+
+
+
 
 #### 3. Submission code is usable and readable
 
