@@ -19,10 +19,10 @@
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
-* model.py containing the script to create and train the model. It contains the main code necessary for the project to train.
-* drive.py for driving the car in autonomous mode. It is used along with model.h5 to drive the car in the simulator autonomously.
-* model.h5 containing a trained convolution neural network. 
-* writeup_report.md or writeup_report.pdf summarizing the results as Behavioral-Cloning-Writeup.md. 
+##### * model.py containing the script to create and train the model. It contains the main code necessary for the project to train.
+##### * drive.py for driving the car in autonomous mode. It is used along with model.h5 to drive the car in the simulator autonomously.
+##### * model.h5 containing a trained convolution neural network. 
+##### * writeup_report.md or writeup_report.pdf summarizing the results as Behavioral-Cloning-Writeup.md. 
 
 #### 2. Submission includes functional code
 
