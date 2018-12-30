@@ -86,13 +86,11 @@ The model contains dropout layer in order to reduce overfitting. There is a Drop
 
 #### 3. Model parameter tuning
 
-The model used an Adam optimizer, so the learning rate was tuned manually. "optimizer=Adam(lr=1.0e-4)" depicts the usage of Adam optimizer with a learning rate of "1.0e-4".
+The model uses an Adam optimizer, so the learning rate is tuned manually. "optimizer=Adam(lr=1.0e-4)" depicts the usage of Adam optimizer with a learning rate of "1.0e-4". The number of epochs is set to 10 and batch_size is set to 32.
 
 #### 4. Appropriate training data
 
-Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
-
-For details about how I created the training data, see the next section. 
+Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. 
 
 ### Architecture and Training Documentation
 
