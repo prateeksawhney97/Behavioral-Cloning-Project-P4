@@ -86,7 +86,7 @@ The model contains dropout layer in order to reduce overfitting. There is a Drop
 
 #### 3. Model parameter tuning
 
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
+The model used an Adam optimizer, so the learning rate was tuned manually. "optimizer=Adam(lr=1.0e-4)" depicts the usage of Adam optimizer with a learning rate of "1.0e-4".
 
 #### 4. Appropriate training data
 
