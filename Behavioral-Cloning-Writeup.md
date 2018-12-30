@@ -94,11 +94,7 @@ Training data was chosen to keep the vehicle driving on the road. I used trainin
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to ...
-
-My first step was to use a convolution neural network model similar to the ... I thought this model might be appropriate because ...
-
-In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
+In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set with train_test_split() function with a relative test size of 0.2. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
 To combat the overfitting, I modified the model so that ...
 
@@ -148,3 +144,7 @@ I used this training data for training the model. The validation set helped dete
 ### Simulation
 
 #### 1. Car able to navigate correctly on test data
+
+Here is the link to the video showing the car navigating through the roads in the simulator without getting off from it.
+
+Link - 
