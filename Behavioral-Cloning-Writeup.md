@@ -90,10 +90,9 @@ The model uses an Adam optimizer, so the learning rate is tuned manually. "optim
 
 #### 4. Appropriate training data
 
-Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. 
+Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. Nearly 13,000 images including the center, left and right camera images were used to train the model. Various training Data Augmentation techniques were used to augment the training data like random flip, random translate, random brightness and RGB to YUV image conversion just as NVIDIA uses in its model.
 
 ### Architecture and Training Documentation
-
 
 #### 1. Solution Design Approach
 
