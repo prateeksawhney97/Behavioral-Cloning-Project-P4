@@ -37,17 +37,17 @@ Using the Udacity provided simulator and my drive.py file, the car can be driven
 ```sh
 python drive.py model.h5
 ```
-After the car successfully steers through the track, the video of the driving behavior can be formed by producing various frames and saving that frames in the output_video folder, by executing the following command. The fourth argument, output_video, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
+After the car successfully steers through the track, the video of the driving behavior can be formed by producing various frames and saving that frames in the output-video folder, by executing the following command. The fourth argument, output-video, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
 ```sh
-python drive.py model.h5 output_video
+python drive.py model.h5 output-video
 ```
-After all the frames of the car driving in the simulator are saved in the output_video folder, the video can be made by combining all the frames with the use of following command. It creates a video based on images found in the output_video directory. The name of the video will be the name of the directory followed by '.mp4'.
+After all the frames of the car driving in the simulator are saved in the output-video folder, the video can be made by combining all the frames with the use of following command. It creates a video based on images found in the output-video directory. The name of the video will be the name of the directory followed by '.mp4'.
 ```sh
-python video.py output_video
+python video.py output-video
 ```
 Optionally, we can specify the FPS (frames per second) of the video. The default is 60 fps.
 ```sh
-python video.py output_video --fps 48
+python video.py output-video --fps 48
 ```
 
 #### 3. Submission code is usable and readable
