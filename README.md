@@ -1,4 +1,4 @@
-# Behavioral Cloning Project
+# Behavioral Cloning Project P4
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ![rsz_screenshot_from_2019-01-02_00-24-51](https://user-images.githubusercontent.com/34116562/50582951-3f329280-0e8c-11e9-9d07-eeefde890d1d.png)
@@ -105,7 +105,7 @@ Training data was chosen to keep the vehicle driving on the road. I used trainin
 
 #### 1. Solution Design Approach
 
-In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set with train_test_split() function with a relative test size of 0.2. I used generator so that a part of training data images is operated upon at a given time. I used NVIDIA like model with five convolutional layers and four dense layers alongwith flatten, dropout layers. Used training data of size approx. 13, 000 images to train the model. Also, augmented all of the images in the training data. In the end, after training, when the model is saved, a plot is also depicted to show the training and validation losses. Steering corrections are also introduced alongwith appropriate camera images i.e. left, right and center camera images. At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set with train_test_split() function with a relative test size of 0.2. I used generator so that a part of training data images is operated upon at a given time. I used NVIDIA like model with five convolutional layers and four dense layers alongwith flatten, dropout layers. Used training data of size approx. 29, 000 images to train the model. Also, augmented all of the images in the training data. In the end, after training, when the model is saved, a plot is also depicted to show the training and validation losses. Steering corrections are also introduced alongwith appropriate camera images i.e. left, right and center camera images. At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
 Random Flipping
 
@@ -158,4 +158,3 @@ To capture good driving behavior, I recorded three laps on track two using cente
 #### 1. Car able to navigate correctly on test data
 
 The car is able to steer correctly through the roads in the simulator for track 1.
-
