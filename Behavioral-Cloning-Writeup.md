@@ -12,7 +12,6 @@
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
-
 ---
 ### Files Submitted & Code Quality
 
