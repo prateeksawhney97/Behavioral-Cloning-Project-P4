@@ -57,6 +57,11 @@ Optionally, we can specify the FPS (frames per second) of the video. The default
 python video.py output-video --fps 48
 ```
 
+#### Implementation -
+
+![screenshot from 2019-01-02 14-53-48](https://user-images.githubusercontent.com/34116562/50592043-6d2dcc00-0eb8-11e9-8244-5d0654970fd3.png)
+
+
 #### 3. Submission code is usable and readable
 
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works. Further, I have also included the code to plot the mean squared error loss for the training set and the validation set per epoch. It helps us to get a better idea of the scenario and gives us a lot of information on the various parameters to tune to get a much better result. 
