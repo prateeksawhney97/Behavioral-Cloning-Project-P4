@@ -127,3 +127,5 @@ To capture good driving behavior, I recorded three laps on track two using cente
 #### 1. Car able to navigate correctly on test data
 
 The car is able to steer correctly through the roads in the simulator for track 1.
+
+Youtube - https://www.youtube.com/watch?v=2_6eNQr4yAc&feature=youtu.be
