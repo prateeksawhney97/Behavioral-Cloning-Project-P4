@@ -1,6 +1,9 @@
 # Behavioral Cloning Project
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+![rsz_screenshot_from_2019-01-02_00-24-51](https://user-images.githubusercontent.com/34116562/50582951-3f329280-0e8c-11e9-9d07-eeefde890d1d.png)
+
+
 # **Behavioral Cloning** 
 
 ### The goals / steps of this project are the following:
