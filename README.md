@@ -79,13 +79,6 @@ The model uses an Adam optimizer, so the learning rate is tuned manually. "optim
 
 Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. Nearly 13,000 images including the center, left and right camera images were used to train the model. Various training Data Augmentation techniques were used to augment the training data like random flip, random translate, random brightness and RGB to YUV image conversion just as NVIDIA uses in its model.
 
-Random Flipping
-
-![flip](https://user-images.githubusercontent.com/34116562/50549024-fefcc580-0c7b-11e9-8916-744f5657e3c4.png)
-
-Random Translation
-
-![trans](https://user-images.githubusercontent.com/34116562/50549025-015f1f80-0c7c-11e9-876b-bd8d55329c26.png)
 
 
 ### Architecture and Training Documentation
@@ -93,6 +86,14 @@ Random Translation
 #### 1. Solution Design Approach
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set with train_test_split() function with a relative test size of 0.2. I used generator so that a part of training data images is operated upon at a given time. I used NVIDIA like model with five convolutional layers and four dense layers alongwith flatten, dropout layers. Used training data of size approx. 13, 000 images to train the model. Also, augmented all of the images in the training data. In the end, after training, when the model is saved, a plot is also depicted to show the training and validation losses. Steering corrections are also introduced alongwith appropriate camera images i.e. left, right and center camera images. At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+
+Random Flipping
+
+![flip](https://user-images.githubusercontent.com/34116562/50549024-fefcc580-0c7b-11e9-8916-744f5657e3c4.png)
+
+Random Translation
+
+![trans](https://user-images.githubusercontent.com/34116562/50549025-015f1f80-0c7c-11e9-876b-bd8d55329c26.png)
 
 Center Camera Image
 
