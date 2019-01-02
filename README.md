@@ -79,21 +79,21 @@ The model uses an Adam optimizer, so the learning rate is tuned manually. "optim
 
 Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. Nearly 13,000 images including the center, left and right camera images were used to train the model. Various training Data Augmentation techniques were used to augment the training data like random flip, random translate, random brightness and RGB to YUV image conversion just as NVIDIA uses in its model.
 
-##### Center Camera Images -
+#### Center Camera Images -
 
 ![center_2016_12_01_13_31_14_295](https://user-images.githubusercontent.com/34116562/50587401-cdfed980-0ea3-11e9-8ada-03074029abb7.jpg)
 ![center_2016_12_01_13_32_44_266](https://user-images.githubusercontent.com/34116562/50587403-d0613380-0ea3-11e9-8f39-4f66c9a96ed0.jpg)
 ![center_2016_12_01_13_32_46_789](https://user-images.githubusercontent.com/34116562/50587406-d1926080-0ea3-11e9-8b65-7f9d82c857ca.jpg)
 ![center_2016_12_01_13_32_59_325](https://user-images.githubusercontent.com/34116562/50587409-d48d5100-0ea3-11e9-9b37-6de95afa352d.jpg)
 
-##### Right Camera Images -
+#### Right Camera Images -
 
 ![right_2016_12_01_13_37_17_175](https://user-images.githubusercontent.com/34116562/50587460-11594800-0ea4-11e9-84e8-54751f1955cc.jpg)
 ![right_2016_12_01_13_37_20_022](https://user-images.githubusercontent.com/34116562/50587461-128a7500-0ea4-11e9-8e26-d8963a9d5ec8.jpg)
 ![right_2016_12_01_13_37_33_282](https://user-images.githubusercontent.com/34116562/50587465-14543880-0ea4-11e9-8a19-da654741e349.jpg)
 ![right_2016_12_01_13_37_39_846](https://user-images.githubusercontent.com/34116562/50587468-174f2900-0ea4-11e9-90a3-9c277bcc941c.jpg)
 
-##### Left Camera Images -
+#### Left Camera Images -
 
 ![left_2016_12_01_13_33_00_640](https://user-images.githubusercontent.com/34116562/50587495-35b52480-0ea4-11e9-8be3-ecf4da9d4d25.jpg)
 ![left_2016_12_01_13_33_02_153](https://user-images.githubusercontent.com/34116562/50587497-36e65180-0ea4-11e9-99be-113383a1c243.jpg)
