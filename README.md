@@ -79,6 +79,13 @@ The model uses an Adam optimizer, so the learning rate is tuned manually. "optim
 
 Training data was chosen to keep the vehicle driving on the road. I used training data by driving for around three tracks on the road. Nearly 13,000 images including the center, left and right camera images were used to train the model. Various training Data Augmentation techniques were used to augment the training data like random flip, random translate, random brightness and RGB to YUV image conversion just as NVIDIA uses in its model.
 
+##### Center Camera Images -
+
+![center_2016_12_01_13_31_14_295](https://user-images.githubusercontent.com/34116562/50587401-cdfed980-0ea3-11e9-8ada-03074029abb7.jpg)
+![center_2016_12_01_13_32_44_266](https://user-images.githubusercontent.com/34116562/50587403-d0613380-0ea3-11e9-8f39-4f66c9a96ed0.jpg)
+![center_2016_12_01_13_32_46_789](https://user-images.githubusercontent.com/34116562/50587406-d1926080-0ea3-11e9-8b65-7f9d82c857ca.jpg)
+![center_2016_12_01_13_32_59_325](https://user-images.githubusercontent.com/34116562/50587409-d48d5100-0ea3-11e9-9b37-6de95afa352d.jpg)
+
 
 
 ### Architecture and Training Documentation
