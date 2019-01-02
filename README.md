@@ -5,7 +5,7 @@
 
 ## Track 1
 
-
+![rsz_screenshot_from_2019-01-02_12-56-49](https://user-images.githubusercontent.com/34116562/50583488-82dacb80-0e8f-11e9-86e6-793dd1cf3fa1.png)
 
 ## Track 2
 
