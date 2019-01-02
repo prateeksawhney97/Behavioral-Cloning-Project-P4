@@ -59,6 +59,8 @@ python video.py output-video --fps 48
 
 #### Implementation -
 
+Youtube - https://www.youtube.com/watch?v=2_6eNQr4yAc&feature=youtu.be
+
 ![screenshot from 2019-01-02 14-53-48](https://user-images.githubusercontent.com/34116562/50592043-6d2dcc00-0eb8-11e9-8244-5d0654970fd3.png)
 
 
@@ -163,3 +165,5 @@ To capture good driving behavior, I recorded three laps on track two using cente
 #### 1. Car able to navigate correctly on test data
 
 The car is able to steer correctly through the roads in the simulator for track 1.
+
+Youtube - https://www.youtube.com/watch?v=2_6eNQr4yAc&feature=youtu.be
